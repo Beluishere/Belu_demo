@@ -2,7 +2,7 @@ header {
     color: #fff;
     padding: 20px;
     text-align: center;
-    position: sticky; 
+    position: flex; 
     top: 0;
     z-index: 1000;
     margin-top: -5px;
@@ -10,13 +10,13 @@ header {
 
 /* Top-bar layout */
 .top-bar {
-    background: linear-gradient(to right, #ffcccc, #ff9999);
+    background: linear-gradient(to right, #8e9ffa, #8193f7, #54ade8);
     padding: 10px;
     display: flex;
     align-items: center; 
     justify-content: space-between;
     height: 80px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     box-sizing: border-box;
 }
 
@@ -76,7 +76,7 @@ body, h1, p {
 /* Body background */
 body {
     font-family: Arial, sans-serif;
-    background-color: #FFE8D6;
+    background-color: #8d9ef2;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -99,18 +99,18 @@ body {
     margin-right: 20px;
     text-align: justify;
     box-sizing: border-box;
-    color: #F76C5E;
-    font-weight: 500;
+    color: #f0e9e9;
+    font-weight: 530;
     line-height: 1.8;
     padding-bottom: 10px;
 }
 
 h1 {
-    color: #F76C5E;
+    color: white;
 }
 
 .part_1 .h1 {
-    color: #F76C5E;
+    color: white;
     font-weight: bold;
     font-size: 28px;
     margin-bottom: 10px;
@@ -139,7 +139,7 @@ h1 {
     padding: 20px;
     font-size: 18px;
     line-height: 1.6;
-    color: #262424;
+    color: white;
     margin-top: 6%;
     gap: 20px;
 }
@@ -150,7 +150,7 @@ h1 {
     margin-right: auto;
     text-align: justify;
     padding: 10px;
-    color: #F76C5E;
+    color: #f0e9e9;
     box-sizing: border-box;
     line-height: 1.8;
     padding-right: 30px;
@@ -178,7 +178,7 @@ h1 {
     padding: 20px;
     font-size: 18px;
     line-height: 1.6;
-    color: #262424;
+    color: #f0e9e9;
     margin-top: 2%;
     gap: 30px;
 }
@@ -189,7 +189,7 @@ h1 {
     margin-right: auto;
     text-align: left; /* Align text to the left */
     padding: 20px; /* Adds padding to left and right of paragraph */
-    color: #F76C5E;
+    color: #f0e9e9;
     box-sizing: border-box;
     line-height: 1.8;
 }
